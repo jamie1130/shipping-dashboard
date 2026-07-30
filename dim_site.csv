@@ -1,0 +1,236 @@
+﻿site_code,region,site_type,state
+ALB01,NE,取件点,New York
+FMN01,WE,取件点,New Mexico
+SMX02,WE,取件点,California
+ERI01,NE,取件点,Pennsylvania
+DCU01,MS,取件点,Alabama
+MSL01,MS,取件点,Alabama
+MGM01,MS,取件点,Alabama
+MRC01,MS,取件点,Tennessee
+YUM02,WE,取件点,Arizona
+LFT01,MS,取件点,Louisiana
+FWA01,GL,取件点,Indiana
+AMA01,TX,取件点,Texas
+EVV01,GL,取件点,Indiana
+ORD.T,GL,仓库,Illinois
+GJT01,WE,取件点,Colorado
+CID01,GL,取件点,Iowa
+HDC01,MS,取件点,Louisiana
+ORH01,NE,取件点,Massachusetts
+EUG01001,WE,仓库,Oregon
+SJT01,TX,取件点,Texas
+PAE01,WE,取件点,Washington
+BMI01,GL,取件点,Illinois
+IAH02,TX,取件点,Texas
+BZN01,WE,取件点,Montana
+PDK01,MS,取件点,Georgia
+SPS01,TX,取件点,Texas
+PGV01,MS,取件点,North Carolina
+LAL01,FL,取件点,Florida
+GRB01,GL,取件点,Wisconsin
+PDK.T,MS,仓库,Georgia
+RFD01,GL,取件点,Illinois
+DSM01,GL,取件点,Iowa
+ABE01,NE,取件点,Pennsylvania
+TRC01,WE,取件点,Washington
+EWR.T,NE,仓库,New Jersey
+BWI.H,NE,二级转运中心,Maryland
+FLL01,FL,取件点,Florida
+SFO02,WE,取件点,California
+PDK.H,MS,一级枢纽中心,Georgia
+OAJ01,MS,取件点,North Carolina
+DAY01,GL,取件点,Ohio
+SPR01,MS,取件点,Arkansas
+LRD01,TX,取件点,Texas
+GAD01,MS,取件点,Alabama
+DFW.G,TX,仓库,Texas
+SFV02,WE,取件点,California
+MFR01,WE,取件点,Oregon
+MCI.T,GL,仓库,Missouri
+CLT.T,MS,仓库,North Carolina
+LGA02,NE,取件点,New York
+ATL.T,MS,仓库,Georgia
+SHV01,MS,取件点,Louisiana
+LCH01,MS,取件点,Louisiana
+MIA05,FL,取件点,Florida
+MDW01,GL,取件点,Illinois
+TYS01,MS,取件点,Tennessee
+MYR01,MS,取件点,South Carolina
+LEX01,GL,取件点,Kentucky
+CNO.T,WE,仓库,California
+JFK.T,NE,清关行,New York
+FPR01,FL,取件点,Florida
+AUO01,MS,取件点,Alabama
+PIA01,GL,取件点,Illinois
+TRI01,MS,取件点,Tennessee
+TAL01,FL,取件点,Florida
+PRC01,WE,取件点,Arizona
+IFP01,WE,取件点,Arizona
+CYS01,WE,取件点,Colorado
+CGZ01,WE,取件点,Arizona
+GRR01,GL,取件点,Michigan
+MAF01,TX,取件点,Texas
+BIL01,WE,取件点,Montana
+BTR01,MS,取件点,Louisiana
+SAF01,WE,取件点,New Mexico
+IDA01,WE,取件点,Idaho
+PIH01,WE,取件点,Idaho
+LGU01,WE,取件点,Utah
+ROC01,NE,取件点,New York
+MAC01,MS,取件点,Georgia
+CVG.H,GL,二级转运中心,Ohio
+OMA01,GL,取件点,Nebraska
+MDT01002,NE,仓库,Pennsylvania
+MDT01,NE,取件点,Pennsylvania
+FLO01,MS,取件点,South Carolina
+YKM01,WE,取件点,Washington
+GEG01,WE,取件点,Washington
+MOB01,MS,取件点,Alabama
+CLT03,MS,取件点,North Carolina
+PNE01,NE,取件点,Pennsylvania
+LAS01001,WE,仓库,Nevada
+LBB01,TX,取件点,Texas
+JAN01,MS,取件点,Mississippi
+AGS.T,WE,清关行,California
+SDF01,GL,取件点,Kentucky
+ELP01,TX,取件点,Texas
+IAD01,NE,取件点,Virginia
+DCA01,NE,取件点,Maryland
+MFE01,TX,取件点,Texas
+BDR01,NE,取件点,Connecticut
+SEA01001,WE,仓库,Washington
+ATL03,MS,取件点,Georgia
+ATL02,MS,取件点,Georgia
+ATL.G,MS,仓库,Georgia
+ORD.G,GL,仓库,Illinois
+CNO.G,WE,仓库,California
+TEB01,NE,取件点,New Jersey
+TWF01,WE,取件点,Idaho
+CLT02,MS,取件点,North Carolina
+SMX01001,WE,仓库,California
+TUL01001,MS,仓库,Arkansas
+ILM01,MS,取件点,North Carolina
+GSO01,MS,取件点,North Carolina
+OAR01,WE,取件点,California
+IND01002,GL,仓库,Indiana
+LGA01,NE,取件点,New York
+EWR01003,NE,仓库,New Jersey
+SEA.H,WE,二级转运中心,Washington
+SYR01,NE,取件点,New York
+DEN.H,WE,二级转运中心,Colorado
+CLT.H,MS,二级转运中心,North Carolina
+HSV01,MS,取件点,Alabama
+CSG01,MS,取件点,Georgia
+OCF01,FL,取件点,Florida
+MSY01,MS,取件点,Louisiana
+SRQ01,FL,取件点,Florida
+ACT01,TX,取件点,Texas
+ABI01,TX,取件点,Texas
+TYR01,TX,取件点,Texas
+BPT01,TX,取件点,Texas
+AVL01,MS,取件点,North Carolina
+CHA01,MS,取件点,Georgia
+IMG.T,GL,清关行,Illinois
+PHL01001,NE,仓库,Delaware
+GED01,NE,取件点,Delaware
+FAY01,MS,取件点,North Carolina
+SCK01,WE,取件点,California
+BHM01,MS,取件点,Alabama
+IND01001,GL,仓库,Indiana
+EUG01,WE,取件点,Oregon
+SMF01001,WE,仓库,California
+CRP01,TX,取件点,Texas
+GSP01,MS,取件点,South Carolina
+PDX01001,WE,仓库,Oregon
+YUM01,WE,取件点,Arizona
+TUC01,WE,取件点,Arizona
+SFV01,WE,取件点,California
+PLM01,WE,取件点,California
+BKD01,WE,取件点,California
+MHT01,NE,取件点,New Hampshire
+LIT01,MS,取件点,Arkansas
+ORF01,NE,取件点,Virginia
+FRG01,NE,取件点,New York
+SMX01,WE,取件点,California
+LDJ01,NE,取件点,New Jersey
+LAX01,WE,取件点,California
+IAH.H,TX,二级转运中心,Texas
+MCO01,FL,取件点,Florida
+MIA01,FL,取件点,Florida
+ATL01,MS,取件点,Georgia
+ORD01,GL,取件点,Illinois
+DFW01,TX,取件点,Texas
+ABQ01,WE,取件点,New Mexico
+MOD01,WE,取件点,California
+BOI01,WE,取件点,Idaho
+RDG01,WE,取件点,California
+RIC01,NE,取件点,Virginia
+MEM01,MS,取件点,Tennessee
+BUF01,NE,取件点,New York
+SFO.H,WE,二级转运中心,California
+STG01,WE,取件点,Utah
+CHS01,MS,取件点,South Carolina
+PIT01,NE,取件点,Pennsylvania
+HNL01,WE,取件点,Hawaii
+HNL.T,WE,机场,Hawaii
+LAX.T,WE,机场,California
+SJU.T,FL,机场,Puerto Rico
+MIA.T,FL,机场,Florida
+CAE01,MS,取件点,South Carolina
+MCI01,GL,取件点,Missouri
+CNO.H,WE,一级枢纽中心,California
+PVD01,NE,取件点,Rhode Island
+BDL01,NE,取件点,Connecticut
+TUL01,TX,取件点,Oklahoma
+MSN01,GL,取件点,Wisconsin
+JAX01,FL,取件点,Florida
+BOS01,NE,取件点,Massachusetts
+MSP01,GL,取件点,Minnesota
+RDU01,MS,取件点,North Carolina
+PHL02,NE,取件点,New Jersey
+CLT01,MS,取件点,North Carolina
+RNO01,WE,取件点,Nevada
+DTW01,GL,取件点,Michigan
+STL01,GL,取件点,Missouri
+CLE01,GL,取件点,Ohio
+MKE01,GL,取件点,Wisconsin
+OKC01,TX,取件点,Oklahoma
+BWI01,NE,取件点,Maryland
+SAV01,MS,取件点,Georgia
+AGS01,MS,取件点,Georgia
+SMF01,WE,取件点,California
+SAN01,WE,取件点,California
+FAT01,WE,取件点,California
+IAH01,TX,取件点,Texas
+AUS01,TX,取件点,Texas
+SEA01,WE,取件点,Washington
+PHX01,WE,取件点,Arizona
+PDX01,WE,取件点,Oregon
+DEN01,WE,取件点,Colorado
+LAS01,WE,取件点,Nevada
+PHL01,NE,取件点,New Jersey
+SAT01,TX,取件点,Texas
+BNA01,MS,取件点,Tennessee
+CVG01,GL,取件点,Ohio
+TPA01,FL,取件点,Florida
+WPB01,FL,取件点,Florida
+FTM01,FL,取件点,Florida
+SLC01,WE,取件点,Utah
+SFO01,WE,取件点,California
+EWR.H,NE,一级枢纽中心,New Jersey
+JFK.H,NE,二级转运中心,New York
+DFW.H,TX,一级枢纽中心,Texas
+ATL.H,MS,一级枢纽中心,Georgia
+SJU01,FL,取件点,Puerto Rico
+CMH01,GL,取件点,Ohio
+IND01,GL,取件点,Indiana
+VTC01,WE,取件点,California
+ORD.H,GL,一级枢纽中心,Illinois
+MIA.H,FL,一级枢纽中心,Florida
+MCO.H,FL,二级转运中心,Florida
+JFK01,NE,取件点,New York
+LAX.H,WE,一级枢纽中心,California
+CNO01,WE,取件点,California
+BOS.H,NE,枢纽,Massachusetts
+ONT.H,WE,枢纽,California
+LDJ.H,NE,枢纽,New Jersey
