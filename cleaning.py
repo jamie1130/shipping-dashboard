@@ -29,9 +29,13 @@ def load_site2region(path="dim_site.csv"):
     ds = pd.read_csv(path, dtype=str)
     return dict(zip(ds["site_code"].str.strip(), ds["region"]))
 
-def clean(fahuo_path, shouhuo_path, site2region):
+def clean(files, site2region):
+    """files: 一个文件,或多个文件的列表(路径或上传对象)。单个 taskArrivalTaskList
+    每行同时含 实际发车 与 实际到车 时间,所以一个文件即可同时算收发。"""
+    if not isinstance(files, (list, tuple)):
+        files = [files]
     frames = []
-    for p in (fahuo_path, shouhuo_path):
+    for p in files:
         d = pd.read_excel(p); d.columns = [str(c).strip() for c in d.columns]; frames.append(d)
     raw = pd.concat(frames, ignore_index=True).dropna(how="all")
     raw = raw[raw["运输类型"].isin(TRUNK)].copy()                       # 只留干线+支线

@@ -18,13 +18,14 @@ WD = ["一", "二", "三", "四", "五", "六", "日"]
 
 # ---------------- 侧栏:上传 + 设置 ----------------
 with st.sidebar:
-    st.header("① 上传昨日数据")
-    f1 = st.file_uploader("发货 taskArrivalTaskList", type=["xlsx"], key="fa")
-    f2 = st.file_uploader("收货 taskArrivalTaskList", type=["xlsx"], key="sh")
-    if st.button("处理并入库", type="primary", disabled=not (f1 and f2)):
+    st.header("① 上传数据")
+    files = st.file_uploader("taskArrivalTaskList(一个或多个 .xlsx)",
+                             type=["xlsx"], accept_multiple_files=True,
+                             help="一个文件即可(每行含发车与到车时间)。建议每次导近14天滚动窗口。")
+    if st.button("处理并入库", type="primary", disabled=not files):
         with st.spinner("清洗入库中…"):
             s2r = cleaning.load_site2region("dim_site.csv")
-            out = cleaning.clean(f1, f2, s2r)
+            out = cleaning.clean(files, s2r)
             db.upsert_shipments(out)
             db.load_recent.clear()
         st.success(f"已入库/更新 {len(out)} 段")
