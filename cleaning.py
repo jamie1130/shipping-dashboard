@@ -25,6 +25,12 @@ def to_pacific(v):
     if dt is None or dt.year < 2024 or dt.year > MAXY: return None
     return dt.replace(tzinfo=src).astimezone(PAC).replace(tzinfo=None)
 
+def iso_week(d):
+    """ISO 周(周一→周日),返回 '2026-W31' 这种,带年份跨年唯一。"""
+    if d is None or pd.isna(d): return None
+    y, w, _ = d.isocalendar()
+    return f"{y}-W{w:02d}"
+
 def load_site2region(path="dim_site.csv"):
     ds = pd.read_csv(path, dtype=str)
     return dict(zip(ds["site_code"].str.strip(), ds["region"]))
@@ -57,5 +63,10 @@ def clean(files, site2region):
     out["origin_region"] = out["origin"].map(lambda h: site2region.get(h))
     out["dest_region"] = out["dest"].map(lambda h: site2region.get(h))
     out["seg_key"] = out["task_id"] + "|" + out["origin"] + "|" + out["dest"]
+    out["week"] = out["depart_date"].map(iso_week)          # 按发车日归 ISO 周
+    if "任务名称" in raw.columns:                            # 整段路线名(去掉时间后缀)
+        out["route_name"] = raw["任务名称"].astype(str).str.replace(r"\s*[（(][^)）]*[)）]\s*$", "", regex=True).values
+    else:
+        out["route_name"] = None
     out = out[out["depart_date"].notna() | out["arrive_date"].notna()].reset_index(drop=True)
     return out

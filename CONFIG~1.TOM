@@ -1,0 +1,7 @@
+# 看板主题(借鉴之前那版的观感:淡底 + 蓝/青语义色)
+[theme]
+primaryColor = "#2f6bff"
+backgroundColor = "#f7f9fc"
+secondaryBackgroundColor = "#ffffff"
+textColor = "#18212e"
+font = "sans serif"

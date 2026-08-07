@@ -4,9 +4,11 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, text
 
-COLS = ["seg_key","task_id","origin","dest","origin_region","dest_region","trunk_type",
+COLS = ["seg_key","task_id","route_name","origin","dest","origin_region","dest_region","trunk_type",
         "vehicle_type","supplier","load_tickets","unload_tickets",
-        "depart_ts","arrive_ts","depart_date","arrive_date"]
+        "depart_ts","arrive_ts","depart_date","arrive_date","week"]
+# route_name(整段路线名/MT路线)已入库。首次启用需在 Supabase 跑一次:
+#   alter table fact_shipment add column if not exists route_name text;  然后重传一次数据。
 
 @st.cache_resource
 def get_engine():
