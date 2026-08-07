@@ -13,26 +13,6 @@
 | `requirements.txt` / `packages.txt` | 依赖(packages 装中文字体,PNG 才显示中文) |
 | `.streamlit/secrets.toml.example` | 数据库连接串模板 |
 
-## 一次性搭建(约 20 分钟)
-
-**第 1 步 · 建 Supabase 库**
-1. 到 supabase.com 注册,New Project(选个区域、设个数据库密码,记住)。
-2. 左侧 SQL Editor → 新建 query → 把 `schema.sql` 内容粘进去 → Run(建好 `fact_shipment` 表)。
-3. Project Settings → Database → Connection string → 选 **URI**,复制那串;把开头 `postgresql://` 改成 `postgresql+psycopg2://`,并把 `[YOUR-PASSWORD]` 换成你的密码。
-
-**第 2 步 · 放到 GitHub**
-1. 建一个 GitHub 仓库(Private 也行),把本文件夹**所有文件**(含 `.streamlit/` 但**不要**上传 `secrets.toml`)推上去。
-2. `secrets.toml.example` 只是模板,别把真密码提交到仓库。
-
-**第 3 步 · 部署到 Streamlit Cloud**
-1. 到 share.streamlit.io 用 GitHub 登录 → New app → 选你的仓库、分支、主文件 `app.py`。
-2. Advanced settings → Secrets,粘贴:
-   ```
-   [db]
-   url = "postgresql+psycopg2://postgres:你的密码@db.xxxx.supabase.co:5432/postgres"
-   ```
-3. Deploy。第一次装依赖要几分钟,好了会给你一个网址。
-
 ## 每天怎么用
 1. 打开网址(闲置休眠的话等几十秒唤醒)。
 2. 左侧上传 `taskArrivalTaskList`——**一个文件就够**(每行同时含发车与到车时间,自动算收发)。**建议每次导"实际发车时间=近14天"的滚动窗口**,这样"前几天发车、这两天才到"的记录也会被补全、不漏。可一次多选几个文件。点「处理并入库」(按 seg_key 幂等,重复上传自动更新不重复)。
